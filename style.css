@@ -1,46 +1,94 @@
 
-body{
-    text-align: center;
-   
-}
 
-section{
-    display: grid;
-    grid-template-columns: 33% 33% 34%;
-    background-color: rgb(21, 21, 21);
-    height: 50vh;
-}
+/* phone media query */
+@media(max-width:991px) {
+    header{
+        background-color: rgb(44, 151, 213);
+        /* height: 25vh; */
+        color: white;
+    }
 
-header{
-    background-color: rgb(42, 197, 179);
-    height: 50vh;
-    color: white;
-}
+    .Header-Text{
+        font-size: 35px;
+        width: 200px;
+        padding-top: 75px;
+        padding-bottom: 75px;
+        padding-left: 35vw;
+    }
 
-.Header-Text{
-    padding: 13%;
-    font-size: 50px;
-}
+    section{
+        text-align: center;
+        padding-left: 30%;
+        padding-right: 30%;
 
-h2{
+    }
+
+    article{
+        padding-bottom: 20%;
+    }
+
+    .title-1{
+        border-top: 25px solid rgb(43, 152, 211);
+        padding-top: 10px;
+    }
     
+    .title-2{
+        border-top: 25px solid rgb(239, 80, 38);
+        padding-top: 10px;
+    }
+    
+    .title-3{
+        border-top: 25px solid rgb(42, 197, 179);
+        padding-top: 10px;
+    }
 }
 
-article{
-    color: white;
-}
 
-article:nth-child(1){
-    border-top: 25px solid rgb(43, 152, 211);
-    margin: 50px;
+/* laptop media query */
+@media (min-width: 992px){
+    body{
+        text-align: center;
+       
+    }
+    
+    section{
+        display: grid;
+        grid-template-columns: 33% 33% 34%;
+        background-color: rgb(21, 21, 21);
+        height: 50vh;
+    }
+    
+    header{
+        background-color: rgb(42, 197, 179);
+        height: 50vh;
+        color: white;
+    }
+    
+    .Header-Text{
+        padding: 13%;
+        font-size: 50px;
+    }
+    
+    article{
+        color: white;
+        padding: 50px;
+        width: 60%;
+    
+    }
+    
+    .title-1{
+        border-top: 25px solid rgb(43, 152, 211);
+        padding-top: 10px;
+    }
+    
+    .title-2{
+        border-top: 25px solid rgb(239, 80, 38);
+        padding-top: 10px;
+    }
+    
+    .title-3{
+        border-top: 25px solid rgb(42, 197, 179);
+        padding-top: 10px;
+    }
 }
-
-article:nth-child(2){
-    border-top: 25px solid rgb(239, 80, 38);
-    margin: 50px;
-}
-
-article:nth-child(3){
-    border-top: 25px solid rgb(42, 197, 179);
-    margin: 50px;
-}
+    
